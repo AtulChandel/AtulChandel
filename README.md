@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @AtulKumarChandel
+- 👋 Hi, I’m @AtulKumarChandel and currently working as Product Engineer at Temenos.
 - 👀 I’m interested in almost everything
 - 🌱 I’m currently learning Devops tools and methodologies 
 - 💞️ I’m looking to collaborate on devops projects
