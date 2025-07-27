@@ -287,7 +287,7 @@ document.addEventListener('DOMContentLoaded', function() {
 downloadButtons.forEach(button => {
     button.addEventListener('click', function() {
         const link = document.createElement('a');
-        link.href = 'https://atulchandel.github.io/Atul_Chandel_Resume.pdf';  // ✅ Update this to your actual file location
+        link.href = 'https://github.com/AtulChandel/AtulChandel/blob/main/AtulChandelSDET4YOE.pdf';  // ✅ Update this to your actual file location
         link.download = 'Atul_Chandel_Resume.pdf';
         link.click();
     });
