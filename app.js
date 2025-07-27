@@ -283,19 +283,16 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Download Resume Functionality
     const downloadButtons = document.querySelectorAll('#downloadResume, #downloadResumeFooter');
-    
-    downloadButtons.forEach(button => {
-        button.addEventListener('click', function() {
-            // Create a temporary notification since we can't actually download a file
-            showNotification('Resume download would start here. In a real implementation, this would download a PDF file.', 'info');
-            
-            // In a real implementation, you would do something like:
-            // const link = document.createElement('a');
-            // link.href = '/path/to/resume.pdf';
-            // link.download = 'Atul_Chandel_Resume.pdf';
-            // link.click();
-        });
+
+downloadButtons.forEach(button => {
+    button.addEventListener('click', function() {
+        const link = document.createElement('a');
+        link.href = 'https://atulchandel.github.io/Atul_Chandel_Resume.pdf';  // ✅ Update this to your actual file location
+        link.download = 'Atul_Chandel_Resume.pdf';
+        link.click();
     });
+});
+
     
     // Scroll to top functionality
     function createScrollToTopButton() {
